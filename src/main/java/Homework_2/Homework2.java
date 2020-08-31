@@ -45,10 +45,11 @@ public class Homework2 {
                 secretWord[i] = inputString.charAt(i);
             }
         }
-        for (char myChar: secretWord){
-            myStr.append(myChar);
-        }
-        return myStr.toString();
+//        for (char myChar: secretWord){
+//            myStr.append(myChar);
+//        }
+//        return myStr.toString();
+        return String.valueOf(secretWord);
     }
 
 

@@ -30,10 +30,11 @@ public class Homework1 {
                     break;
                 }
             }
-        } while (!ExitGame());
+        } while (!exitGame());
 
     }
-    private static boolean ExitGame(){
+
+    private static boolean exitGame(){
         for (;;){
             System.out.println("Игра закончена! Хотите повторить? 1 - Да, 0 - Нет");
             switch (InputValue()) {
